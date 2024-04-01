@@ -26,7 +26,7 @@ def calc_accuracy(preds, truth, thr):
 
 
 def main():
-    with open("./config/config.yaml", "r") as f:
+    with open("../config/config.yaml", "r") as f:
         cfg = yaml.safe_load(f)
 
     cfg = Dict(cfg)
